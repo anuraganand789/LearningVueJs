@@ -1,0 +1,30 @@
+# Logs
+./JobSearch/logs
+*.log
+./JobSearch/git npm-debug.log*
+./JobSearch/yarn-debug.log*
+./JobSearch/yarn-error.log*
+./JobSearch/pnpm-debug.log*
+./JobSearch/lerna-debug.log*
+
+./JobSearch/node_modules
+./JobSearch/.DS_Store
+./JobSearch/dist
+./JobSearch/dist-ssr
+./JobSearch/coverage
+./JobSearch/*.local
+
+./JobSearch//cypress/videos/
+./JobSearch//cypress/screenshots/
+
+# Editor directories and files
+./JobSearch/.vscode/*
+!.vscode/extensions.json
+./JobSearch/.idea
+./JobSearch/*.suo
+./JobSearch/*.ntvs*
+./JobSearch/*.njsproj
+./JobSearch/*.sln
+./JobSearch/*.sw?
+
+*.tsbuildinfo
