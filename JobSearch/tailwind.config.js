@@ -8,11 +8,17 @@ export default {
       fontFamily  : {
         sans  : ["Open Sans", ...defaultTheme.fontFamily.sans],
       },
-      color : {
-        "brandGray1"  : "#dadce0",
-        "brandBlue1"  : "#1967d2",
-        "brandGreen1"  : "#137333",
+      colors : {
+        "brandGray1"    : "#dadce0",
+        "brandGray2"    : "#f8f9fa",
+        "brandGray3"    : "#80868b",
+        "brandBlue1"    : "#1967d2",
+        "brandBlue2"    : "#4285f4",
+        "brandGreen1"   : "#137333",
       },
+      boxShadow : {
+        blue : "0 0 3px 3px #4285f4",
+      }
     },
   },
   plugins: [],
