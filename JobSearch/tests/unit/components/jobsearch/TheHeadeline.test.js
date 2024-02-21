@@ -44,7 +44,7 @@ describe("The Headline Component", () => {
 
     });
 
-    it("removes iterval when component is removed", () => {
+    it("removes interval when component is removed", () => {
         const originalClearInterval = clearInterval;
         const mockClearInterval = vi.fn();
         vi.stubGlobal("clearInterval", mockClearInterval);
